@@ -1,5 +1,5 @@
 copy alwaysonsql_workshop.countries 
-  from '/tmp/datastax-alwaysonsql_workshop/data/alwaysonsql-workshop.countries.csv' 
+  from '/tmp/datastax-alwaysonsql-workshop/data/alwaysonsql_workshop.countries.csv' 
   with HEADER = TRUE;
 
 copy alwaysonsql_workshop.customers (
@@ -24,7 +24,7 @@ copy alwaysonsql_workshop.customers (
   avoids_alcohol_min,
   protects_environment_min
 )
-  from '/tmp/datastax-alwaysonsql_workshop/data/alwaysonsql-workshop.customers.csv' 
+  from '/tmp/datastax-alwaysonsql-workshop/data/alwaysonsql_workshop.customers.csv' 
   with HEADER = true
   
 copy alwaysonsql_workshop.transactions (
@@ -44,7 +44,7 @@ copy alwaysonsql_workshop.transactions (
   account_country,
   account_city
 )
-  from '/tmp/datastax-alwaysonsql_workshop/data/alwaysonsql-workshop.transactions.csv' 
+  from '/tmp/datastax-alwaysonsql-workshop/data/alwaysonsql_workshop.transactions.csv' 
   with HEADER = true;
   
 copy alwaysonsql_workshop.transactions_historical (
@@ -64,7 +64,7 @@ copy alwaysonsql_workshop.transactions_historical (
   account_country,
   account_city
 )
-  from '/tmp/datastax-alwaysonsql_workshop/data/alwaysonsql_workshop.transactions-historical.csv' 
+  from '/tmp/datastax-alwaysonsql-workshop/data/alwaysonsql_workshop.transactions_historical.csv' 
   with HEADER = true;
   
 copy alwaysonsql_workshop.transactions_buy (
@@ -84,7 +84,7 @@ copy alwaysonsql_workshop.transactions_buy (
   account_country,
   account_city
 )
-  from '/tmp/datastax-alwaysonsql_workshop/data/alwaysonsql_workshop.transactions-buy.csv' 
+  from '/tmp/datastax-alwaysonsql-workshop/data/alwaysonsql_workshop.transactions_buy.csv' 
   with HEADER = true;
   
 copy alwaysonsql_workshop.transactions_sell (
@@ -104,7 +104,7 @@ copy alwaysonsql_workshop.transactions_sell (
   account_country,
   account_city
 )
-  from '/tmp/datastax-alwaysonsql_workshop/data/alwaysonsql_workshop.transactions-sell.csv' 
+  from '/tmp/datastax-alwaysonsql-workshop/data/alwaysonsql_workshop.transactions_sell.csv' 
   with HEADER = true;
 
 
