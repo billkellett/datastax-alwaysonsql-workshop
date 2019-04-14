@@ -25,7 +25,7 @@ copy alwaysonsql_workshop.customers (
   protects_environment_min
 )
   from '/tmp/datastax-alwaysonsql-workshop/data/alwaysonsql_workshop.customers.csv' 
-  with HEADER = true
+  with HEADER = true;
   
 copy alwaysonsql_workshop.transactions (
   transaction_id,
@@ -106,8 +106,3 @@ copy alwaysonsql_workshop.transactions_sell (
 )
   from '/tmp/datastax-alwaysonsql-workshop/data/alwaysonsql_workshop.transactions_sell.csv' 
   with HEADER = true;
-
-
-
-
-
