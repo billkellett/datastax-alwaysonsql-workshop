@@ -1,3 +1,5 @@
 websocketd
 hugo
+alwaysonsql-workshop-ddl.sh
+alwaysonsql-workshop-dml.sh
 restartOpsCenter.sh
