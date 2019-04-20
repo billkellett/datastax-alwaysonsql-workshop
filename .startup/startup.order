@@ -2,4 +2,5 @@ websocketd
 hugo
 alwaysonsql-workshop-ddl.sh
 alwaysonsql-workshop-dml.sh
+studionotebook.sh
 restartOpsCenter.sh
