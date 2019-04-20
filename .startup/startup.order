@@ -2,6 +2,6 @@ websocketd
 hugo
 alwaysonsql-workshop-ddl.sh
 alwaysonsql-workshop-dml.sh
-alwaysonsql-nodetool-repair.sh
+alwaysonsql-workshop-nodetool-repair.sh
 studionotebook.sh
 restartOpsCenter.sh
