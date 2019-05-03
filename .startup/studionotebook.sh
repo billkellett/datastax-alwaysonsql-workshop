@@ -21,7 +21,6 @@ fi
 curl -H "Accept-Encoding: gzip" -X POST -F 'file=@notebooks/AlwaysOnSQL_Workshop_Lab_1_-_Basic_SQL_Operations.tar' http://"$IP":9091/api/v1/notebooks/import &> /dev/null
 curl -H "Accept-Encoding: gzip" -X POST -F 'file=@notebooks/AlwaysOnSQL_Workshop_Lab_2_-_JDBC.tar' http://"$IP":9091/api/v1/notebooks/import &> /dev/null
 curl -H "Accept-Encoding: gzip" -X POST -F 'file=@notebooks/AlwaysOnSQL_Workshop_Lab_3_-_ODBC.tar' http://"$IP":9091/api/v1/notebooks/import &> /dev/null
-curl -H "Accept-Encoding: gzip" -X POST -F 'file=@notebooks/AlwaysOnSQL_Workshop_Lab_4_-_External_Joins.tar' http://"$IP":9091/api/v1/notebooks/import &> /dev/null
-curl -H "Accept-Encoding: gzip" -X POST -F 'file=@notebooks/AlwaysOnSQL_Workshop_Lab_5_-_External_ETL.tar' http://"$IP":9091/api/v1/notebooks/import &> /dev/null
+curl -H "Accept-Encoding: gzip" -X POST -F 'file=@notebooks/AlwaysOnSQL_Workshop_Lab_4_-_Java_programming_with_the_JDBC_Driver.tar' http://"$IP":9091/api/v1/notebooks/import &> /dev/null
 
 echo "Finished loading workshop notebooks"
