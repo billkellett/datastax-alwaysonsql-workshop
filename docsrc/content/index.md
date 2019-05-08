@@ -1,5 +1,5 @@
 ---
-title: AlwaysOnSQL Workshop
+title: DataStax AlwaysOnSQL Workshop
 type: index
 weight: 10
 ---
